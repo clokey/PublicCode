@@ -1,0 +1,35 @@
+8
+
+dir
+3
+https://clokey@macosxvirtualserialport.googlecode.com/svn/trunk/Common/BWToolkit/BWToolkit.ibplugin/Contents/Frameworks/BWToolkitFramework.framework/Versions
+https://clokey@macosxvirtualserialport.googlecode.com/svn
+
+
+
+2009-08-28T20:15:04.600622Z
+3
+clokey
+
+
+svn:special svn:externals svn:needs-lock
+
+A
+dir
+
+Current
+file
+
+
+
+
+2009-08-28T20:10:17.000000Z
+654580f41818cd6f51408c7cbd313728
+2009-08-28T20:15:04.600622Z
+3
+clokey
+has-props
+
+
+svn:special
+

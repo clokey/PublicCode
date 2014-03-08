@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'VirtualSerialPortApp' target in the 'VirtualSerialPortApp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define AMSerialDebug

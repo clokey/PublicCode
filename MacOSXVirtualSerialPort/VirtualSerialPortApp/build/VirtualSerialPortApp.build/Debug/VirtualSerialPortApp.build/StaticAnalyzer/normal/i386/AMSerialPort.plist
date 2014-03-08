@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>files</key>
+ <array>
+  <string>/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>131</integer>
+      <key>col</key><integer>6</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>extended_message</key>
+     <string>Instance variable &apos;countWriteInBackgroundThreads&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+     <key>message</key>
+<string>Instance variable &apos;countWriteInBackgroundThreads&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+    </dict>
+   </array>
+   <key>description</key><string>Instance variable &apos;countWriteInBackgroundThreads&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+   <key>category</key><string>Optimization</string>
+   <key>type</key><string>Unused instance variable</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>131</integer>
+   <key>col</key><integer>6</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>130</integer>
+      <key>col</key><integer>7</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>extended_message</key>
+     <string>Instance variable &apos;stopWriteInBackground&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+     <key>message</key>
+<string>Instance variable &apos;stopWriteInBackground&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+    </dict>
+   </array>
+   <key>description</key><string>Instance variable &apos;stopWriteInBackground&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+   <key>category</key><string>Optimization</string>
+   <key>type</key><string>Unused instance variable</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>130</integer>
+   <key>col</key><integer>7</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>133</integer>
+      <key>col</key><integer>7</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>extended_message</key>
+     <string>Instance variable &apos;stopReadInBackground&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+     <key>message</key>
+<string>Instance variable &apos;stopReadInBackground&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+    </dict>
+   </array>
+   <key>description</key><string>Instance variable &apos;stopReadInBackground&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+   <key>category</key><string>Optimization</string>
+   <key>type</key><string>Unused instance variable</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>133</integer>
+   <key>col</key><integer>7</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>122</integer>
+      <key>col</key><integer>6</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>extended_message</key>
+     <string>Instance variable &apos;am_readSelector&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+     <key>message</key>
+<string>Instance variable &apos;am_readSelector&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+    </dict>
+   </array>
+   <key>description</key><string>Instance variable &apos;am_readSelector&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+   <key>category</key><string>Optimization</string>
+   <key>type</key><string>Unused instance variable</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>122</integer>
+   <key>col</key><integer>6</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>134</integer>
+      <key>col</key><integer>6</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>extended_message</key>
+     <string>Instance variable &apos;countReadInBackgroundThreads&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+     <key>message</key>
+<string>Instance variable &apos;countReadInBackgroundThreads&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+    </dict>
+   </array>
+   <key>description</key><string>Instance variable &apos;countReadInBackgroundThreads&apos; in class &apos;AMSerialPort&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+   <key>category</key><string>Optimization</string>
+   <key>type</key><string>Unused instance variable</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>134</integer>
+   <key>col</key><integer>6</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+ </array>
+</dict>
+</plist>

@@ -1,0 +1,930 @@
+TVirtualSerialPortApp
+v7
+r0
+t273407542.331464
+cCheck dependencies
+cProcessInfoPlistFile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib
+cCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.icns serialConnector.icns
+cCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.png serialConnector.png
+cCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/PairDevices.png PairDevices.png
+cCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/magnifying-glass.png magnifying-glass.png
+cCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/ConnectDisconnect.png ConnectDisconnect.png
+cCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/socat socat
+cCompileXIB /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Preferences.xib
+cCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/Download.png Download.png
+cProcessPCH /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch.gch VirtualSerialPortApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/main.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AppController.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PathRestrictionFormatter.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/MonitorController.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPort.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortAdditions.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortList.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMStandardEnumerator.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PreferenceController.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/MacOS/VirtualSerialPortApp normal i386
+cPBXCp build/Debug/VirtualSerialPortApp.app/Contents/Frameworks/BWToolkitFramework.framework ../Common/BWToolkit/BWToolkitFramework.framework
+cTouch /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c00000000486499690000000000000942
+t1214552425
+s2370
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOBSD.h
+c0000000047E8839400000000000006C2
+t1206420372
+s1730
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c00000000481BC12A0000000000010CC8
+t1209778474
+s68808
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/serial/IOSerialKeys.h
+c000000004864AB550000000000000B28
+t1214557013
+s2856
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/serial/ioss.h
+c000000004864AB550000000000000927
+t1214557013
+s2343
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/errno.h
+c0000000047BA993000000000000003EB
+t1203411248
+s1003
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/fcntl.h
+c0000000047BA993000000000000003EA
+t1203411248
+s1002
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/paths.h
+c0000000047BA99300000000000001067
+t1203411248
+s4199
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/filio.h
+c0000000047E883CF0000000000001073
+t1206420431
+s4211
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/ioctl.h
+c0000000047E883CF00000000000011D1
+t1206420431
+s4561
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/param.h
+c0000000047E883D00000000000002742
+t1206420432
+s10050
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/time.h
+c0000000047E883D20000000000001E18
+t1206420434
+s7704
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sysexits.h
+c0000000047BA99300000000000001560
+t1203411248
+s5472
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/termios.h
+c0000000047BA993000000000000004D4
+t1203411248
+s1236
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
+c0000000047BA993200000000000053FF
+t1203411250
+s21503
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A4D5233000000000016E510
+t1246581299
+s1500432
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit/BWToolkitFramework.framework
+c000000004A9839C800000000000000EE
+t1251490248
+s238
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit/BWToolkitFramework.framework/BWToolkitFramework
+c000000004A47D2CD00000000000E0DD4
+t1246221005
+s921044
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSDKCompatibility.h
+c000000004A9838F1000000000000031B
+t1251490033
+s795
+i<Foundation/Foundation.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialErrors.h
+c000000004A9838F10000000000000211
+t1251490033
+s529
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h
+c000000004A9838F10000000000001B55
+t1251490033
+s6997
+i"AMSDKCompatibility.h"
+i<stdio.h>
+i<string.h>
+i<unistd.h>
+i<fcntl.h>
+i<errno.h>
+i<paths.h>
+i<termios.h>
+i<sys/time.h>
+i<sysexits.h>
+i<sys/param.h>
+i<Foundation/Foundation.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m
+c000000004A9838F10000000000004972
+t1251490033
+s18802
+i"AMSDKCompatibility.h"
+i<stdio.h>
+i<string.h>
+i<unistd.h>
+i<fcntl.h>
+i<errno.h>
+i<paths.h>
+i<termios.h>
+i<sys/time.h>
+i<sysexits.h>
+i<sys/param.h>
+i<sys/ioctl.h>
+i"AMSerialPort.h"
+i"AMSerialErrors.h"
+i<IOKit/serial/IOSerialKeys.h>
+i<IOKit/serial/ioss.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.h
+c000000004A9838F10000000000000E3D
+t1251490033
+s3645
+i"AMSDKCompatibility.h"
+i<Foundation/Foundation.h>
+i"AMSerialPort.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m
+c000000004A9838F10000000000004AE2
+t1251490033
+s19170
+i"AMSDKCompatibility.h"
+i<sys/ioctl.h>
+i<sys/filio.h>
+i"AMSerialPortAdditions.h"
+i"AMSerialErrors.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.h
+c000000004A9838F1000000000000076E
+t1251490033
+s1902
+i"AMSDKCompatibility.h"
+i<Foundation/Foundation.h>
+i<IOKit/serial/IOSerialKeys.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m
+c000000004A9838F10000000000002925
+t1251490033
+s10533
+i"AMSDKCompatibility.h"
+i"AMSerialPortList.h"
+i"AMSerialPort.h"
+i"AMStandardEnumerator.h"
+i<termios.h>
+i<CoreFoundation/CoreFoundation.h>
+i<IOKit/IOKitLib.h>
+i<IOKit/serial/IOSerialKeys.h>
+i<IOKit/IOBSD.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.h
+c000000004A9838F100000000000002E0
+t1251490033
+s736
+i"AMSDKCompatibility.h"
+i<Foundation/Foundation.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m
+c000000004A9838F100000000000004F5
+t1251490033
+s1269
+i"AMSDKCompatibility.h"
+i"AMStandardEnumerator.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.h
+c000000004A9838F1000000000000057A
+t1251490033
+s1402
+i<Cocoa/Cocoa.h>
+i"MonitorController.h"
+i"PreferenceController.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m
+c000000004A9850950000000000001E13
+t1251496085
+s7699
+i"AppController.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/ConnectDisconnect.png
+c000000004A9838F10000000000000177
+t1251490033
+s375
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Download.png
+c000000004A9838F10000000000000113
+t1251490033
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/InfoPlist.strings
+c000000004A9838EF000000000000005C
+t1251490031
+s92
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib
+c000000004A9BA6A10000000000028469
+t1251714721
+s164969
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.h
+c000000004A9838F1000000000000056E
+t1251490033
+s1390
+i<Cocoa/Cocoa.h>
+i"AMSerialPort.h"
+i"AMSerialPortAdditions.h"
+i"AMSerialPortList.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m
+c000000004A9838F1000000000000115A
+t1251490033
+s4442
+i"MonitorController.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PairDevices.png
+c000000004A9838F10000000000000819
+t1251490033
+s2073
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.h
+c000000004A9838F1000000000000022C
+t1251490033
+s556
+i<Cocoa/Cocoa.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m
+c000000004A9838F10000000000000574
+t1251490033
+s1396
+i"PathRestrictionFormatter.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.h
+c000000004A9838F10000000000000146
+t1251490033
+s326
+i<Cocoa/Cocoa.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m
+c000000004A9838F10000000000000153
+t1251490033
+s339
+i"PreferenceController.h"
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Preferences.xib
+c000000004A9838F10000000000001C72
+t1251490033
+s7282
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/VirtualSerialPortApp_Prefix.pch
+c000000004A9838F100000000000000C1
+t1251490033
+s193
+i<Cocoa/Cocoa.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app
+t1251714742
+s102
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Frameworks/BWToolkitFramework.framework
+t1251714742
+s204
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Info.plist
+t1251714737
+s876
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/MacOS/VirtualSerialPortApp
+t1251714742
+s84508
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/PkgInfo
+t1251714737
+s8
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/ConnectDisconnect.png
+t1251714738
+s375
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/Download.png
+t1251714738
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1251714738
+s92
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/English.lproj/MainMenu.nib
+t1251714738
+s33847
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/PairDevices.png
+t1251714738
+s2073
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/Preferences.nib
+t1251714738
+s1868
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/magnifying-glass.png
+t1251714738
+s434
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.icns
+t1251714738
+s212528
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.png
+t1251714738
+s29244
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/socat
+t1251714738
+s265580
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPort.o
+t1251714741
+s46048
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortAdditions.o
+t1251714741
+s34796
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortList.o
+t1251714742
+s29516
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMStandardEnumerator.o
+t1251714742
+s9920
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AppController.o
+t1251714741
+s34092
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/MonitorController.o
+t1251714741
+s36536
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PathRestrictionFormatter.o
+t1251714741
+s8636
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PreferenceController.o
+t1251714742
+s12016
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/VirtualSerialPortApp.LinkFileList
+c000000004A9BA6B10000000000000657
+t1251714737
+s1623
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/main.o
+t1251714741
+s4928
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMSerialPort.plist
+t1251545023
+s6733
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMSerialPortAdditions.plist
+t1251545023
+s11733
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMSerialPortList.plist
+t1251545024
+s7578
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMStandardEnumerator.plist
+t1251545024
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AppController.plist
+t1251545023
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/MonitorController.plist
+t1251545023
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/PathRestrictionFormatter.plist
+t1251545023
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/PreferenceController.plist
+t1251545024
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/main.plist
+t1251545023
+s275
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/magnifying-glass.png
+c000000004A9838F100000000000001B2
+t1251490033
+s434
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m
+c000000004A9838F10000000000000121
+t1251490033
+s289
+i<Cocoa/Cocoa.h>
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/serialConnector.icns
+c000000004A9838F10000000000033E30
+t1251490033
+s212528
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/serialConnector.png
+c000000004A9838F1000000000000723C
+t1251490033
+s29244
+
+N/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/socat
+c000000004A9838F10000000000040D6C
+t1251490033
+s265580
+
+N/var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch.gch
+t1251714741
+s54084016
+
+N/var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch.pth
+t1251545019
+s7228208
+
+N/var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-gwovgdfpbwvhodbdsidmijkpdsgo/VirtualSerialPortApp_Prefix.pch.gch
+t1251545021
+s54084016
+
+NInfo.plist
+c000000004A9838F1000000000000036B
+t1251490033
+s875
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m
+s273237823.632228
+e273237823.765603
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m
+oIn file included from /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m:39:
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:131:6: warning: Instance variable 'countWriteInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).
+o         int countWriteInBackgroundThreads;
+o             ^
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:130:7: warning: Instance variable 'stopWriteInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).
+o         BOOL stopWriteInBackground;
+o              ^
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:133:7: warning: Instance variable 'stopReadInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).
+o         BOOL stopReadInBackground;
+o              ^
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:122:6: warning: Instance variable 'am_readSelector' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).
+o         SEL am_readSelector;
+o             ^
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:134:6: warning: Instance variable 'countReadInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).
+o         int countReadInBackgroundThreads;
+o             ^
+o5 diagnostics generated.
+lSLF07#2@97"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m273237823#273237823#0(1771"In file included from /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m:39:/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:131:6: warning: Instance variable 'countWriteInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).         int countWriteInBackgroundThreads;             ^/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:130:7: warning: Instance variable 'stopWriteInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).         BOOL stopWriteInBackground;              ^/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:133:7: warning: Instance variable 'stopReadInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).         BOOL stopReadInBackground;              ^/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:122:6: warning: Instance variable 'am_readSelector' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).         SEL am_readSelector;             ^/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h:134:6: warning: Instance variable 'countReadInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods).         int countReadInBackgroundThreads;             ^5 diagnostics generated.5(0@171"Instance variable 'countWriteInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#1(21@171"Instance variable 'countWriteInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#0(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#131#6#0#0#0"1(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#131#6#0#0#171"Instance variable 'countWriteInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#131#6#0#0#12"Optimization0(24"Unused instance variable0@163"Instance variable 'stopWriteInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#1(21@163"Instance variable 'stopWriteInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#0(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#130#7#0#0#0"1(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#130#7#0#0#163"Instance variable 'stopWriteInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#130#7#0#0#12"Optimization0(24"Unused instance variable0@162"Instance variable 'stopReadInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#1(21@162"Instance variable 'stopReadInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#0(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#133#7#0#0#0"1(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#133#7#0#0#162"Instance variable 'stopReadInBackground' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#133#7#0#0#12"Optimization0(24"Unused instance variable0@157"Instance variable 'am_readSelector' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#1(21@157"Instance variable 'am_readSelector' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#0(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#122#6#0#0#0"1(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#122#6#0#0#157"Instance variable 'am_readSelector' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#122#6#0#0#12"Optimization0(24"Unused instance variable0@170"Instance variable 'countReadInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#1(21@170"Instance variable 'countReadInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)273237823#18446744073709551615#0#0(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#134#6#0#0#0"1(6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#134#6#0#0#170"Instance variable 'countReadInBackgroundThreads' in class 'AMSerialPort' is never used by the methods in its @implementation (although it may be used by category methods)6@89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.h273182833#134#6#0#0#12"Optimization0(24"Unused instance variable0#0#89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m4300882208#2265"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMSerialPort.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m
+s273237823.765695
+e273237823.960048
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:499:4:{499:11-499:14}: warning: Value stored to 'stop' is never read
+o                         stop = YES;
+o                         ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:522:5:{522:12-522:15}: warning: Value stored to 'stop' is never read
+o                                 stop = YES;
+o                                 ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:526:5:{526:12-526:15}: warning: Value stored to 'stop' is never read
+o                                 stop = YES;
+o                                 ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:541:8:{541:15-541:18}: warning: Value stored to 'stop' is never read
+o                                                         stop = YES;
+o                                                         ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:545:8:{545:15-545:18}: warning: Value stored to 'stop' is never read
+o                                                         stop = YES;
+o                                                         ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:551:7:{551:14-551:17}: warning: Value stored to 'stop' is never read
+o                                                 stop = YES;
+o                                                 ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:556:7:{556:14-556:17}: warning: Value stored to 'stop' is never read
+o                                                 stop = YES;
+o                                                 ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:562:6:{562:13-562:16}: warning: Value stored to 'stop' is never read
+o                                         stop = YES;
+o                                         ^      ~~~
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:566:6:{566:13-566:16}: warning: Value stored to 'stop' is never read
+o                                         stop = YES;
+o                                         ^      ~~~
+o9 diagnostics generated.
+lSLF07#2@106"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273237823#273237823#0(2514"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:499:4:{499:11-499:14}: warning: Value stored to 'stop' is never read                         stop = YES;                         ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:522:5:{522:12-522:15}: warning: Value stored to 'stop' is never read                                 stop = YES;                                 ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:526:5:{526:12-526:15}: warning: Value stored to 'stop' is never read                                 stop = YES;                                 ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:541:8:{541:15-541:18}: warning: Value stored to 'stop' is never read                                                         stop = YES;                                                         ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:545:8:{545:15-545:18}: warning: Value stored to 'stop' is never read                                                         stop = YES;                                                         ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:551:7:{551:14-551:17}: warning: Value stored to 'stop' is never read                                                 stop = YES;                                                 ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:556:7:{556:14-556:17}: warning: Value stored to 'stop' is never read                                                 stop = YES;                                                 ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:562:6:{562:13-562:16}: warning: Value stored to 'stop' is never read                                         stop = YES;                                         ^      ~~~/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m:566:6:{566:13-566:16}: warning: Value stored to 'stop' is never read                                         stop = YES;                                         ^      ~~~9 diagnostics generated.9(0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#499#4#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#499#11#499#13#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#499#4#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#522#5#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#522#12#522#14#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#522#5#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#526#5#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#526#12#526#14#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#526#5#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#541#8#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#541#15#541#17#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#541#8#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#545#8#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#545#15#545#17#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#545#8#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#551#7#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#551#14#551#16#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#551#7#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#556#7#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#556#14#556#16#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#556#7#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#562#6#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#562#13#562#15#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#562#6#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#1(21@36"Value stored to 'stop' is never read273237823#18446744073709551615#0#0(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#566#6#0#0#0"1(6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#566#13#566#15#36"Value stored to 'stop' is never read6@98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273182833#566#6#0#0#10"Dead store0(15"Dead assignment0#0#98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m18296371709870192#2283"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMSerialPortAdditions.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m
+s273237823.957180
+e273237824.089234
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m:58:4: warning: Potential leak of an object allocated on line 58
+o                         [[self alloc] init]; // assignment not done here
+o                         ^
+o1 diagnostic generated.
+lSLF07#2@101"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273237823#273237824#0(283"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m:58:4: warning: Potential leak of an object allocated on line 58                         [[self alloc] init]; // assignment not done here                         ^1 diagnostic generated.1(0@48"Potential leak of an object allocated on line 58273237824#18446744073709551615#0#7(17@0"273237824#18446744073709551615#0#0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#0"0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#1(3@6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#55#5#55#5#6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#55#19#55#19#17@0"273237824#18446744073709551615#0#0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#0"0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#1(3@6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#55#19#55#19#6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#56#9#56#9#17@0"273237824#18446744073709551615#0#0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#0"0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#1(3@6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#56#9#56#9#6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#58#4#58#22#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)273237824#18446744073709551615#0#0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#58#4#0#0#0"1(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#58#4#58#22#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"273237824#18446744073709551615#0#0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#0"0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#1(3@6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#58#4#58#22#6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#66#5#66#5#17@0"273237824#18446744073709551615#0#0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#0"0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#0#0#0#0#1(3@6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#66#5#66#5#6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#67#1#67#1#21@113"Object allocated on line 58 is no longer referenced after this point and has a retain count of +1 (object leaked)273237824#18446744073709551615#0#0(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#67#1#0#0#0"1(6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#67#1#67#1#113"Object allocated on line 58 is no longer referenced after this point and has a retain count of +1 (object leaked)6@93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273182833#67#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m4300882208#2273"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMSerialPortList.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m
+s273237823.960113
+e273237824.057091
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m
+lSLF07#2@105"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m273237823#273237824#0(0"0(0#0#97"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m4300882208#2281"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AMStandardEnumerator.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m
+s273237823.068312
+e273237823.180300
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m
+lSLF07#2@98"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m273237823#273237823#0(0"0(0#0#90"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m4300882208#2267"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/AppController.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m
+s273237823.262002
+e273237823.632134
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m
+lSLF07#2@102"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m273237823#273237823#0(0"0(0#0#94"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m4300882208#2275"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/MonitorController.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m
+s273237823.180393
+e273237823.261820
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m
+lSLF07#2@109"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m273237823#273237823#0(0"0(0#0#101"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m4300882208#2289"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/PathRestrictionFormatter.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m
+s273237824.057177
+e273237824.151700
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m
+lSLF07#2@105"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m273237824#273237824#0(0"0(0#0#97"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m4300882208#2281"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/PreferenceController.plist0#
+
+CAnalyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m
+s273237822.960766
+e273237823.068232
+r1
+xAnalyze
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m
+lSLF07#2@89"Analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m273237822#273237823#0(0"0(0#0#81"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m4300882208#2249"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch --analyze /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies273407537#273407537#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPort.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.620798
+e273407541.875661
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPort.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m273407541#273407541#0(0"0(0#0#89"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m4300882208#2317"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPort.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPort.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortAdditions.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.718451
+e273407541.939803
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortAdditions.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m273407541#273407541#0(0"0(0#0#98"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m4300882208#2335"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortAdditions.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortAdditions.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortList.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.875755
+e273407542.085683
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortList.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m273407541#273407542#0(0"0(0#0#93"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m4300882208#2325"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMSerialPortList.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMSerialPortList.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMStandardEnumerator.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.939909
+e273407542.099235
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMStandardEnumerator.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m273407541#273407542#0(0"0(0#0#97"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m4300882208#2333"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AMStandardEnumerator.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AMStandardEnumerator.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AppController.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.318229
+e273407541.520213
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AppController.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m273407541#273407541#0(0"0(0#0#90"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m4300882208#2319"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/AppController.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/MonitorController.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.520326
+e273407541.718347
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/MonitorController.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m273407541#273407541#0(0"0(0#0#94"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m4300882208#2327"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/MonitorController.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/MonitorController.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PathRestrictionFormatter.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.468235
+e273407541.620697
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PathRestrictionFormatter.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m273407541#273407541#0(0"0(0#0#101"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m4300882208#2341"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PathRestrictionFormatter.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PathRestrictionFormatter.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PreferenceController.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407542.085796
+e273407542.220281
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PreferenceController.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m273407542#273407542#0(0"0(0#0#97"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m4300882208#2333"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PreferenceController.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/PreferenceController.o0#
+
+CCompileC build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/main.o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407541.317243
+e273407541.468135
+r1
+xCompileC
+xbuild/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/main.o
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m273407541#273407541#0(0"0(0#0#81"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m4300882208#2301"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -include /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/main.m -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib
+s273407537.998641
+e273407538.543833
+r1
+xCompileXIB
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib:478: note: This view is clipping its content.
+o/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib:480: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib273407537#273407538#0(336"/* com.apple.ibtool.document.notices *//Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib:478: note: This view is clipping its content./Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib:480: note: This view is clipping its content.2(13@34"This view is clipping its content.273407538#18446744073709551615#0#0(6@101"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib273407521#478#0#478#0#0"0(13@34"This view is clipping its content.273407538#18446744073709551615#0#0(6@101"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib273407521#480#0#480#0#0"0(0#0#101"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib4300882208#448"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/English.lproj/MainMenu.nib /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/MainMenu.xib0#
+
+CCompileXIB /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Preferences.xib
+s273407538.033332
+e273407538.238973
+r1
+xCompileXIB
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Preferences.xib
+lSLF07#2@26"CompileXIB Preferences.xib273407538#273407538#0(0"0(0#0#90"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Preferences.xib4300882208#426"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/Preferences.nib /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Preferences.xib0#
+
+CCopyStringsFile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s273407537.997909
+e273407538.025698
+r1
+xCopyStringsFile
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings273407537#273407538#0(0"0(0#0#106"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/English.lproj/InfoPlist.strings4300882208#451"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/ConnectDisconnect.png ConnectDisconnect.png
+s273407538.030308
+e273407538.050114
+r1
+xCpResource
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Resources/ConnectDisconnect.png
+xConnectDisconnect.png
+lSLF07#2@26"Copy ConnectDisconnect.png273407538#273407538#0(0"0(0#0#96"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/ConnectDisconnect.png4300882208#458"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/ConnectDisconnect.png /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources0#
+
+CCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/Download.png Download.png
+s273407538.239069
+e273407538.245733
+r1
+xCpResource
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Resources/Download.png
+xDownload.png
+lSLF07#2@17"Copy Download.png273407538#273407538#0(0"0(0#0#87"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Download.png4300882208#449"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Download.png /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources0#
+
+CCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/PairDevices.png PairDevices.png
+s273407538.027296
+e273407538.036650
+r1
+xCpResource
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Resources/PairDevices.png
+xPairDevices.png
+lSLF07#2@20"Copy PairDevices.png273407538#273407538#0(0"0(0#0#90"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PairDevices.png4300882208#452"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/PairDevices.png /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources0#
+
+CCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/magnifying-glass.png magnifying-glass.png
+s273407538.028791
+e273407538.038175
+r1
+xCpResource
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Resources/magnifying-glass.png
+xmagnifying-glass.png
+lSLF07#2@25"Copy magnifying-glass.png273407538#273407538#0(0"0(0#0#95"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/magnifying-glass.png4300882208#457"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/magnifying-glass.png /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources0#
+
+CCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.icns serialConnector.icns
+s273407538.025790
+e273407538.035087
+r1
+xCpResource
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.icns
+xserialConnector.icns
+lSLF07#2@25"Copy serialConnector.icns273407538#273407538#0(0"0(0#0#95"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/serialConnector.icns4300882208#457"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/serialConnector.icns /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources0#
+
+CCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.png serialConnector.png
+s273407538.026734
+e273407538.038047
+r1
+xCpResource
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Resources/serialConnector.png
+xserialConnector.png
+lSLF07#2@24"Copy serialConnector.png273407538#273407538#0(0"0(0#0#94"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/serialConnector.png4300882208#456"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/serialConnector.png /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources0#
+
+CCpResource build/Debug/VirtualSerialPortApp.app/Contents/Resources/socat socat
+s273407538.031823
+e273407538.044037
+r1
+xCpResource
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Resources/socat
+xsocat
+lSLF07#2@10"Copy socat273407538#273407538#0(0"0(0#0#80"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/socat4300882208#442"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/socat /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Resources0#
+
+CLd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/MacOS/VirtualSerialPortApp normal i386
+s273407542.220365
+e273407542.258253
+r1
+xLd
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/MacOS/VirtualSerialPortApp
+xnormal
+xi386
+lSLF07#2@152"Link /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/MacOS/VirtualSerialPortApp273407542#273407542#0(0"0(0#0#0"4300882208#1033"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -filelist /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/Objects-normal/i386/VirtualSerialPortApp.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework IOKit -framework BWToolkitFramework -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/MacOS/VirtualSerialPortApp0#
+
+CPBXCp build/Debug/VirtualSerialPortApp.app/Contents/Frameworks/BWToolkitFramework.framework ../Common/BWToolkit/BWToolkitFramework.framework
+s273407542.258375
+e273407542.328318
+r1
+xPBXCp
+xbuild/Debug/VirtualSerialPortApp.app/Contents/Frameworks/BWToolkitFramework.framework
+x../Common/BWToolkit/BWToolkitFramework.framework
+lSLF07#2@53"Copy ../Common/BWToolkit/BWToolkitFramework.framework273407542#273407542#0(0"0(0#0#123"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit/BWToolkitFramework.framework4300882208#486"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit/BWToolkitFramework.framework /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Info.plist Info.plist
+s273407537.993915
+e273407537.997840
+r1
+xProcessInfoPlistFile
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist273407537#273407537#0(0"0(0#0#85"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/Info.plist4300882208#436"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch.gch VirtualSerialPortApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s273407538.543969
+e273407541.317095
+r1
+xProcessPCH
+x/var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch.gch
+xVirtualSerialPortApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile VirtualSerialPortApp_Prefix.pch273407538#273407541#0(0"0(0#0#106"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/VirtualSerialPortApp_Prefix.pch4300882208#2160"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../../../../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/VirtualSerialPortApp_Prefix.pch -o /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-bkvlokhtvisjwzapdnyaaaefpzej/VirtualSerialPortApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch.pth VirtualSerialPortApp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s273237818.360583
+e273237819.407144
+r1
+xProcessPCH
+x/var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch.pth
+xVirtualSerialPortApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@42"Precompile VirtualSerialPortApp_Prefix.pch273237818#273237819#0(0"0(0#0#106"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/VirtualSerialPortApp_Prefix.pch4300882208#2090"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/VirtualSerialPortApp_Prefix.pch -o /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-efgqwmorazwldubgqverkckgoujr/VirtualSerialPortApp_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-gwovgdfpbwvhodbdsidmijkpdsgo/VirtualSerialPortApp_Prefix.pch.gch VirtualSerialPortApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s273237818.359607
+e273237821.760381
+r1
+xProcessPCH
+x/var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-gwovgdfpbwvhodbdsidmijkpdsgo/VirtualSerialPortApp_Prefix.pch.gch
+xVirtualSerialPortApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile VirtualSerialPortApp_Prefix.pch273237818#273237821#0(0"0(0#0#106"/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/VirtualSerialPortApp_Prefix.pch4300882208#2054"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-generated-files.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-own-target-headers.hmap -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-all-target-headers.hmap -iquote /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/VirtualSerialPortApp-project-headers.hmap -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug -F/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/../Common/BWToolkit -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/include -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources/i386 -I/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/VirtualSerialPortApp.build/Debug/VirtualSerialPortApp.build/DerivedSources -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/VirtualSerialPortApp_Prefix.pch -o /var/folders/8n/8nPJMfG4EE8ApDXL2Fa64++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VirtualSerialPortApp_Prefix-gwovgdfpbwvhodbdsidmijkpdsgo/VirtualSerialPortApp_Prefix.pch.gch0#
+
+CTouch /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app
+s273407542.328409
+e273407542.331437
+r1
+xTouch
+x/Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app
+lSLF07#2@117"Touch /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app273407542#273407542#0(0"0(0#0#0"4300882208#216"    cd /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp    /usr/bin/touch -c /Users/matt/Projects/Code/MacOSX/googlecode/vsp/trunk/VirtualSerialPortApp/build/Debug/VirtualSerialPortApp.app0#
+
