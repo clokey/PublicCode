@@ -2,6 +2,8 @@
 
 Do you want to test your next Mac OS X-to-Arduino project without always having the Arduino available? Do you want to test you cool Processing application when your mate hasn't finished writing the Arduino sketch? Do you want to do test driven development of your Mac OS X based application without dependency on your microcontroller? If the answer to any of these questions is yes, then VirtualSerialPortApp is for you!
 
+![ScreenShot](https://raw.github.com/clokey/PublicCode/master/MacOSXVirtualSerialPort/Documentation/img/CreatePair.png)
+
 http://macosxvirtualserialport.googlecode.com/files/CreatePair.png
 
 For the impatient, check out the *[http://code.google.com/p/macosxvirtualserialport/wiki/Features Features]* and see if it is right for you! - Current binary is built for Snow Leopard.
@@ -15,7 +17,7 @@ On Mac OS X when you connect an Arduino, mbed etc. to your machine via the USB c
 Inside of your code resident on the computer (be it a Processing sketch, Cococa application, Python etc.) you connect to the Arduino/mbed etc. like it was a straight forward serial port and use the simple communication model that this provides to interact both reading and writing data.
 
 http://macosxvirtualserialport.googlecode.com/files/VirtualSerialPortDocumentation.png
-	
+
 ==Creating more robust solutions==
 
 In the majority of cases people follow a simple approach when writing code that interacts between an App and a device:
