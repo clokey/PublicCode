@@ -1,46 +1,0 @@
-8
-
-dir
-3
-https://clokey@macosxvirtualserialport.googlecode.com/svn/trunk/Common/BWToolkit
-https://clokey@macosxvirtualserialport.googlecode.com/svn
-
-
-
-2009-08-28T20:15:04.600622Z
-3
-clokey
-
-
-svn:special svn:externals svn:needs-lock
-
-Release Notes.rtf
-file
-
-
-
-
-2009-06-28T07:32:40.000000Z
-c984a6fdd252b5ff86cffd0ddc51803a
-2009-08-28T20:15:04.600622Z
-3
-clokey
-
-BWToolkit.ibplugin
-dir
-
-BWToolkitFramework.framework
-dir
-
-License.rtf
-file
-
-
-
-
-2009-01-20T02:38:56.000000Z
-44197b5ccdd06a75ee9bd364e3d989d7
-2009-08-28T20:15:04.600622Z
-3
-clokey
-

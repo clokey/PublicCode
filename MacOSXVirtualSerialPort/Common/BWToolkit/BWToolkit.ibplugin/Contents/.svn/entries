@@ -1,37 +1,0 @@
-8
-
-dir
-3
-https://clokey@macosxvirtualserialport.googlecode.com/svn/trunk/Common/BWToolkit/BWToolkit.ibplugin/Contents
-https://clokey@macosxvirtualserialport.googlecode.com/svn
-
-
-
-2009-08-28T20:15:04.600622Z
-3
-clokey
-
-
-svn:special svn:externals svn:needs-lock
-
-Frameworks
-dir
-
-MacOS
-dir
-
-Info.plist
-file
-
-
-
-
-2009-06-28T20:30:05.000000Z
-451e2eb17a361e1a8814d89f00e29aa2
-2009-08-28T20:15:04.600622Z
-3
-clokey
-
-Resources
-dir
-

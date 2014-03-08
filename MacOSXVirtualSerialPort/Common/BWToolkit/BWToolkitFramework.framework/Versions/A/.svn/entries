@@ -1,35 +1,0 @@
-8
-
-dir
-3
-https://clokey@macosxvirtualserialport.googlecode.com/svn/trunk/Common/BWToolkit/BWToolkitFramework.framework/Versions/A
-https://clokey@macosxvirtualserialport.googlecode.com/svn
-
-
-
-2009-08-28T20:15:04.600622Z
-3
-clokey
-
-
-svn:special svn:externals svn:needs-lock
-
-Resources
-dir
-
-Headers
-dir
-
-BWToolkitFramework
-file
-
-
-
-
-2009-06-28T20:30:05.000000Z
-0b7615d63b443e11e46901fd7b2df563
-2009-08-28T20:15:04.600622Z
-3
-clokey
-has-props
-
