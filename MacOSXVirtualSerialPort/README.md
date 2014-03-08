@@ -9,16 +9,14 @@ This application was always a wrapper around the socat command line tool. Theref
 Where /tmp/socat is the log file to write to, /dev/master and /dev/slave are the two ends of the virtual serial port pair and matt and staff are the user and group to use for the set up of either end of the pipe.
 
 
-#Virtual Serial Port Pair on Mac OS X
+##Virtual Serial Port Pair on Mac OS X
 
 Do you want to test your next Mac OS X-to-Arduino project without always having the Arduino available? Do you want to test you cool Processing application when your mate hasn't finished writing the Arduino sketch? Do you want to do test driven development of your Mac OS X based application without dependency on your microcontroller? If the answer to any of these questions is yes, then VirtualSerialPortApp is for you!
 
 ![ScreenShot](https://raw.github.com/clokey/PublicCode/master/MacOSXVirtualSerialPort/Documentation/img/CreatePair.png)
 
 
-For the impatient, check out the *[http://code.google.com/p/macosxvirtualserialport/wiki/Features Features]* and see if it is right for you! - Current binary is built for Snow Leopard.
-
-##Developing Serial apps on Mac OS X
+###Developing Serial apps on Mac OS X
 
 _Note: device is synonymous with an Arduino, mbed, Propeller etc. & App is synonymous with a Processing Sketch, Mac OS X Cocoa application, Python script etc._
 
@@ -28,19 +26,19 @@ Inside of your code resident on the computer (be it a Processing sketch, Cococa 
 
 ![ScreenShot](https://raw.github.com/clokey/PublicCode/master/MacOSXVirtualSerialPort/Documentation/img/VirtualSerialPortDocumentation.png)
 
-##Creating more robust solutions
+###Creating more robust solutions
 
 In the majority of cases people follow a simple approach when writing code that interacts between an App and a device:
 
 
-  # Write a little code for the device
-  # build and deploy to device
-  # test that data is being sent and received
-  # write a little code for the app
-  # build and run the app on computer
-  # connect to the device
-  # test by interacting with the app
-  # go back to step 1 and write the next bit of the app
+  * Write a little code for the device
+  * build and deploy to device
+  * test that data is being sent and received
+  * write a little code for the app
+  * build and run the app on computer
+  * connect to the device
+  * test by interacting with the app
+  * go back to step 1 and write the next bit of the app
 
 In simple cases this approach works well but becomes annoying if:
   * The code for the device has bugs
@@ -48,6 +46,7 @@ In simple cases this approach works well but becomes annoying if:
   * The app becomes complex
   * It becomes difficult to setup the conditions on the device to get a certain reaction from the app
 
-VirtualSerialPortApp is a Mac OS X application that creates a virtual serial port pair that allows an app to be developed and tested without requiring the device to be connected. <p>
+VirtualSerialPortApp is a Mac OS X application that creates a virtual serial port pair that allows an app to be developed and tested without requiring the device to be connected.
+
 VirtualSerialPortApp (using the socat utility) utilises Mac OS X's underlying BSD pseudo tty's to create a 'pair' of serial ports such that any data written to one will appear on the other and vice versa. Furthermore, once the pair has been created, one of the pair can be connected to and interacted with, both displaying data received and allowing you to write data back. Alternatively, any app that can interact over a serial port can be connected and used as a substitute for the device.
 ![ScreenShot](https://raw.github.com/clokey/PublicCode/master/MacOSXVirtualSerialPort/Documentation/img/VSP-socat.png)
