@@ -1,3 +1,14 @@
+#IMPORTANT NOTE
+
+This software has not worked since Mac OS X 10.7. It relied upon an Interface Builder plugin and a mode of authentication that is no longer supported in newer versions of Mac OS X. The code has been moved here to create a longer term archive of my open source code. The original Google code project has been removed.
+
+This application was always a wrapper around the socat command line tool. Therefore to achieve the same from the command line, download version 1.7.2 or newer of socat from [here](http://www.dest-unreach.org/)
+
+    sudo socat -d -d -d -d -lf /tmp/socat pty,link=/dev/master,raw,echo=0,user=matt,group=staff pty,link=/dev/slave,raw,echo=0,user=matt,group=staff
+
+Where /tmp/socat is the log file to write to, /dev/master and /dev/slave are the two ends of the virtual serial port pair and matt and staff are the user and group to use for the set up of either end of the pipe.
+
+
 #Virtual Serial Port Pair on Mac OS X
 
 Do you want to test your next Mac OS X-to-Arduino project without always having the Arduino available? Do you want to test you cool Processing application when your mate hasn't finished writing the Arduino sketch? Do you want to do test driven development of your Mac OS X based application without dependency on your microcontroller? If the answer to any of these questions is yes, then VirtualSerialPortApp is for you!
@@ -16,9 +27,8 @@ On Mac OS X when you connect an Arduino, mbed etc. to your machine via the USB c
 Inside of your code resident on the computer (be it a Processing sketch, Cococa application, Python etc.) you connect to the Arduino/mbed etc. like it was a straight forward serial port and use the simple communication model that this provides to interact both reading and writing data.
 
 ![ScreenShot](https://raw.github.com/clokey/PublicCode/master/MacOSXVirtualSerialPort/Documentation/img/VirtualSerialPortDocumentation.png)
-http://macosxvirtualserialport.googlecode.com/files/VirtualSerialPortDocumentation.png
 
-==Creating more robust solutions==
+##Creating more robust solutions
 
 In the majority of cases people follow a simple approach when writing code that interacts between an App and a device:
 
@@ -41,4 +51,3 @@ In simple cases this approach works well but becomes annoying if:
 VirtualSerialPortApp is a Mac OS X application that creates a virtual serial port pair that allows an app to be developed and tested without requiring the device to be connected. <p>
 VirtualSerialPortApp (using the socat utility) utilises Mac OS X's underlying BSD pseudo tty's to create a 'pair' of serial ports such that any data written to one will appear on the other and vice versa. Furthermore, once the pair has been created, one of the pair can be connected to and interacted with, both displaying data received and allowing you to write data back. Alternatively, any app that can interact over a serial port can be connected and used as a substitute for the device.
 ![ScreenShot](https://raw.github.com/clokey/PublicCode/master/MacOSXVirtualSerialPort/Documentation/img/VSP-socat.png)
-http://macosxvirtualserialport.googlecode.com/files/VSP-socat.png
