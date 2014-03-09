@@ -7,3 +7,7 @@ Attribution would be nice, but not required. Where I have used code from other p
 ##MacOSXVirtualSerialPort
 
 A Mac OS X 10.7 only application, that wraps the socat commandline tool, and creates a virtual serial port pair, useful for testing embedded device code without having the device present.
+
+##bushey_monitor
+
+A python script to interact with twitter and a Digi international ConnectPort X4 to report indoor and outdoor temperatures.
